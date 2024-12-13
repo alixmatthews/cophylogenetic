@@ -1,8 +1,15 @@
-# ParaFit and PACo analyses
+## ParaFit and PACo analyses
+
+Two common distance-based analyses used to measure the statistical congruence between host and symbiont phylogenies. The end metrics yield an overall "cophylogenetic congruence" between hosts and their symbionts as well as the contribution of individual host-symbiont links across the associations. This script can easily be modified for different systems (just need tree files and a matrix of associations) and should be of use to many researchers in this field! Please contact me if you discover any bugs or have suggestions for improvement.
+
+ParaFit originally derived from Legendre et al. 2002 *Systematic Biology* "A statistical test for host-parasite coevolution"
+
+PACo originally derived from Balbuena et al. 2013 *PLoS One* "PACo: a novel Procrustes application to cophylogenetic analysis" (and, for R, Hutchinson et al. 2017 *Methods in Ecology and Evolution* "paco: implementing Procrustean approach to cophylogeny in R")
+
 ---
 
 Files included in this repo:
-- `parafit_script-2024.R`: updated (December 2024) ParaFit script for distance-based host-parasite cophylogenetic analyses
+- `parafit_script-2024.R`: updated (December 2024) ParaFit script
   - loops over multiple (randomized) ParaFit runs
   - adjusts p-values for multiple tests
   - generates simple output of global value, mean p-value, and link p-values
