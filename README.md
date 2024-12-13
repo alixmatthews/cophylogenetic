@@ -1,6 +1,6 @@
 ## ParaFit and PACo analyses
 
-Two common distance-based analyses used to measure the statistical congruence between host and symbiont phylogenies. The end metrics yield an overall "cophylogenetic congruence" between hosts and their symbionts as well as the contribution of individual host-symbiont links across the associations. This script can easily be modified for different systems (just need tree files and a matrix of associations) and should be of use to many researchers in this field! Please contact me if you discover any bugs or have suggestions for improvement.
+Two common distance-based analyses used to measure the statistical congruence between host and symbiont phylogenies. The end metrics yield an overall "cophylogenetic congruence" between hosts and their symbionts as well as the contribution of individual host-symbiont links to the overall congruence. This script can easily be modified for different systems (just need tree files and a matrix of associations) and should be of use to many researchers in this field! Please contact me if you discover any bugs or have suggestions for improvement.
 
 ParaFit originally derived from Legendre et al. 2002 *Systematic Biology* "A statistical test for host-parasite coevolution"
 
